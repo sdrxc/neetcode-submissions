@@ -1,0 +1,11 @@
+class Solution {
+public:
+    vector<int> getConcatenation(vector<int>& nums) {
+        vector<int> res(nums.begin(),nums.end());
+
+        for(auto it: nums)
+        res.push_back(it);
+
+        return res;
+    }
+};
